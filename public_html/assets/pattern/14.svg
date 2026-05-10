@@ -1,0 +1,14 @@
+<svg width="240" height="240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="scan" width="40" height="40" patternUnits="userSpaceOnUse">
+      
+      <path d="M0 10 H40" stroke="#eeeeee"></path>
+      <path d="M0 20 H40" stroke="#e0e0e0"></path>
+      <path d="M0 30 H40" stroke="#eeeeee"></path>
+
+      <circle cx="5" cy="20" r="1" fill="#cfcfcf"></circle>
+
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#scan)"></rect>
+</svg>

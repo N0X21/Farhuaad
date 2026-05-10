@@ -1,0 +1,16 @@
+<svg width="260" height="260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="circles" width="80" height="80" patternUnits="userSpaceOnUse">
+      
+      <circle cx="40" cy="40" r="30" fill="none" stroke="#f0f0f0"></circle>
+      <circle cx="40" cy="40" r="15" fill="none" stroke="#e6e6e6"></circle>
+      <circle cx="40" cy="40" r="3" fill="#cfcfcf"></circle>
+
+      <!-- маркеры -->
+      <circle cx="40" cy="10" r="1" fill="#dcdcdc"></circle>
+      <circle cx="70" cy="40" r="1" fill="#dcdcdc"></circle>
+
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#circles)"></rect>
+</svg>

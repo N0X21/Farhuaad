@@ -1,0 +1,18 @@
+<svg width="260" height="260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="circuit" width="70" height="70" patternUnits="userSpaceOnUse">
+      
+      <path d="M10 35 H60" stroke="#e0e0e0"></path>
+      <path d="M35 10 V60" stroke="#e0e0e0"></path>
+
+      <circle cx="10" cy="35" r="2" fill="#cfcfcf"></circle>
+      <circle cx="60" cy="35" r="2" fill="#cfcfcf"></circle>
+      <circle cx="35" cy="10" r="2" fill="#cfcfcf"></circle>
+      <circle cx="35" cy="60" r="2" fill="#cfcfcf"></circle>
+
+      <circle cx="35" cy="35" r="1" fill="#dcdcdc"></circle>
+
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#circuit)"></rect>
+</svg>

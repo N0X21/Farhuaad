@@ -1,0 +1,34 @@
+<svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="uiPattern" width="80" height="80" patternUnits="userSpaceOnUse">
+      
+      <!-- угловые рамки -->
+      <path d="M0 20 V0 H20" fill="none" stroke="#e6e6e6" stroke-width="1"></path>
+      <path d="M60 0 H80 V20" fill="none" stroke="#e6e6e6" stroke-width="1"></path>
+      <path d="M80 60 V80 H60" fill="none" stroke="#e6e6e6" stroke-width="1"></path>
+      <path d="M20 80 H0 V60" fill="none" stroke="#e6e6e6" stroke-width="1"></path>
+
+      <!-- центральная метка -->
+      <circle cx="40" cy="40" r="2" fill="#cfcfcf"></circle>
+
+      <!-- крест (как точка фокуса) -->
+      <path d="M40 30 V50 M30 40 H50" stroke="#d5d5d5" stroke-width="1"></path>
+
+      <!-- маленькие координаты -->
+      <circle cx="10" cy="10" r="1" fill="#dcdcdc"></circle>
+      <circle cx="70" cy="10" r="1" fill="#dcdcdc"></circle>
+      <circle cx="10" cy="70" r="1" fill="#dcdcdc"></circle>
+      <circle cx="70" cy="70" r="1" fill="#dcdcdc"></circle>
+
+      <!-- “данные” -->
+      <text x="6" y="45" font-size="6" fill="#e0e0e0" font-family="monospace">01</text>
+      <text x="58" y="75" font-size="6" fill="#e0e0e0" font-family="monospace">x</text>
+
+      <!-- микро линия -->
+      <path d="M20 60 H35" stroke="#eeeeee" stroke-width="1"></path>
+      
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#uiPattern)"></rect>
+</svg>
