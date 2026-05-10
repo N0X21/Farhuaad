@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/N0X21/farhuaad/main/assets/img/logo.png">
+
 # Farhuaad
 
 Farhuaad is a prediction and dispute trading platform built with native PHP. Users can create disputes, place bets, chat in real time, and track platform statistics with AI-assisted moderation and multilingual support.
