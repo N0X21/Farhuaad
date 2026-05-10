@@ -1,4 +1,12 @@
-<img src="https://raw.githubusercontent.com/N0X21/farhuaad/main/assets/img/logo.png">
+<p align="center">
+  <img src="assets/img/logo.png" width="180" alt="Farhuaad Logo">
+</p>
+
+<h1 align="center">Farhuaad</h1>
+
+<p align="center">
+  Prediction & dispute trading platform built with native PHP
+</p>
 
 # Farhuaad
 
